@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.385 s <<< FAILURE! - in com.vytrack.runners.CukesRunner
+initializationError(com.vytrack.runners.CukesRunner)  Time elapsed: 0.005 s  <<< ERROR!
+io.cucumber.core.gherkin.FeatureParserException: Failed to parse resource at: file:///Users/serhatulas/IdeaProjects/ZeroProject/src/test/resources/features/login.feature
+Caused by: io.cucumber.core.gherkin.vintage.internal.gherkin.ParserException$CompositeParserException: 
+Parser errors:
+(11:3): expected: #EOF, #TableRow, #DocStringSeparator, #StepLine, #TagLine, #ScenarioLine, #ScenarioOutlineLine, #Comment, #Empty, got 'Scenario : Logs in with invalid credentials'
+
